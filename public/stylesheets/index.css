@@ -1,14 +1,15 @@
 /*BODY*/
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(234, 248, 156, 0.308);
+
 }
 /*CONTAINER*/
 .container{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: auto;
     padding: 80px;
 }
 .cicle-title{
@@ -32,7 +33,7 @@ body{
 }
 .vamos-button{
     background-color: rgba(75, 75, 75, 0.63);
-    border-color: white;
+    border-color: none;
     border-radius: 80px;
     color: white;
     padding: 20px;
