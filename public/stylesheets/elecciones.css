@@ -1,0 +1,12 @@
+/*En el menu de Hamburguesa */
+li {
+    font-size: 60pt;
+    font-family: Arial;
+    color: white;
+}
+li .chico {
+    font-family: Open Sans;
+    font-size: 24pts;
+    color: #3e3e3e;
+    /* Queda lindo esto??? */
+}

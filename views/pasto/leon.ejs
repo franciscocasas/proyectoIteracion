@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Entrega iteracion</title>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8bb78a721a.js" crossorigin="anonymous"></script>
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+
+  </head>
+  <!--ACA VA EL HEADER-->
+  <%- include('../partials/head') %>
+  <!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
+  <body>
+    <h1>Seleccione para continuar:</h1>
+    <div class="container">
+      <a href="/story"><img src="/images/hyena.jpg" alt="Avatar" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">Hiena</div>
+      </div>
+    </div>
+    <div class="container">
+      <a href="/story"><img src="/images/human.jpg" alt="Avatar" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">Humano</div>
+      </div>
+    </div>
+  </body>
+  <!--TERMINE EL BODY, AHORA VOY A HACER EL FOOTER-->
+  <%- include('../partials/footer') %>
+</html>
