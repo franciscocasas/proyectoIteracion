@@ -1,7 +1,14 @@
 /*BODY*/
-body{
+/*Tipografías
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(234, 248, 156, 0.308);
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DBE9B7;
 
 }
 /*CONTAINER*/
@@ -13,11 +20,12 @@ body{
     padding: 80px;
 }
 .cicle-title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     text-align: center;
     margin: 0px;
     font-size: 100px;
+    color: black;
 }
 .cicle-p{
     margin: 0px;
@@ -32,8 +40,8 @@ body{
     margin-top: 30px;
 }
 .vamos-button{
-    background-color: rgba(75, 75, 75, 0.63);
-    border-color: none;
+    background-color: rgba(163, 146, 146, 0.924);
+    border: 1px none;
     border-radius: 80px;
     color: white;
     padding: 20px;
