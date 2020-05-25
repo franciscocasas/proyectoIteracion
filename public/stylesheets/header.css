@@ -15,7 +15,8 @@ nav.navigation a{
     font-size: 25px;
     font-family: 'Bree Serif', serif;
     color: white;
-    text-align: center;    
+    text-align: center;   
+    text-decoration: none; 
     
 }
 .navigation a:hover{
@@ -26,7 +27,4 @@ nav.navigation a{
 .seg{
     position: relative;
     left: 35px;
-}
-.palito{
-    height: ;
 }
