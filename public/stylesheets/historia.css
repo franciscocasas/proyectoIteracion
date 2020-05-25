@@ -29,6 +29,7 @@ body{
     transition: .5s ease;
     backface-visibility: hidden;
     height: 500px;
+    object-fit: cover;
 } 
 .middle {
     transition: .5s ease;
