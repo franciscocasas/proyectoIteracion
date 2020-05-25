@@ -5,47 +5,50 @@
     font-family: 'Open Sans', sans-serif;
 */
 body{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DBE9B7;
-
+    background-color: white;
 }
 /*CONTAINER*/
 .container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+   grid-template-rows:2fr 5fr 1fr 1fr  ;
     align-items: center;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
 }
 .cicle-title{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bree Serif', serif;
     font-weight: 900;
     text-align: center;
     margin: 0px;
     font-size: 100px;
-    color: black;
 }
 .cicle-p{
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
     font-size: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
 }
 .cicle-p2{
-    font-weight: 800;
-    color: black;
+    font-weight: bold ;
     font-size: 40px;
     margin: 0px;
     margin-bottom: 30px;
     margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 .vamos-button{
-    background-color: rgba(163, 146, 146, 0.924);
+    background-color: black;
+    color: white;
     border: 1px none;
     border-radius: 80px;
-    color: white;
-    padding: 20px;
+    width: 300px;
     font-size: 60px;
+    font-family: 'Bree Serif', serif;
+
 }
 .vamos-button:hover{
     background-color: rgba(0, 0, 0, 0.602);
