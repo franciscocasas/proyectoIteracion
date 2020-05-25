@@ -6,6 +6,9 @@
     font-family: 'Bree Serif', serif;
 
 */
+header{
+    padding: 0px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
@@ -13,7 +16,7 @@ body{
 /*CONTAINER*/
 .container{
     display: grid;
-    grid-template-rows:2fr 5fr 1fr 1fr;
+    grid-template-rows:1fr 5fr 1fr 1fr;
     align-items: center;
     text-align: center;
     padding: 100px;
@@ -24,6 +27,7 @@ body{
     text-align: center;
     margin: 0px;
     font-size: 100px;
+    color: rgb(22, 22, 22);
 }
 .cicle-p{
     font-family: 'Open Sans', sans-serif;
