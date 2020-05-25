@@ -1,0 +1,16 @@
+/* estilo del footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    padding: 80px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }   
+  

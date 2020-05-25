@@ -1,0 +1,18 @@
+/* estilo de navegacion */
+nav {
+    margin: 0em;
+    padding: 0em;
+    list-style: none;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+li {
+    margin-left: 1em;
+}
+.navigation li a {
+color: black;
+font-family: Arial, Helvetica, sans-serif;;
+}

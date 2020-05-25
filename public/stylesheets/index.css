@@ -1,31 +1,22 @@
 /*BODY*/
-/*Tipografías
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-*/
 body{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DBE9B7;
-
 }
 /*CONTAINER*/
 .container{
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: auto;
     padding: 80px;
 }
 .cicle-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     text-align: center;
     margin: 0px;
     font-size: 100px;
-    color: black;
 }
 .cicle-p{
     margin: 0px;
@@ -40,6 +31,65 @@ body{
     margin-top: 30px;
 }
 .vamos-button{
+    background-color: rgba(75, 75, 75, 0.63);
+    border-color: white;
+    border-radius: 80px;
+    color: white;
+    padding: 20px;
+    font-size: 60px;
+}
+.vamos-button:hover{
+    background-color: rgba(0, 0, 0, 0.602);
+
+}/*BODY*/
+/*Tipografías
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(234, 248, 156, 0.308);
+    background-color: #DBE9B7;
+}
+/*CONTAINER*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    padding: 80px;
+}
+.cicle-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-align: justify;
+    margin: 0px;
+    font-size: 100px;    
+}
+.box1 {
+    width: 50em;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    color: black;
+}
+.cicle-p{
+    margin: 0px;
+    font-size: 50px;
+}
+.cicle-p2{
+    font-weight: 800;
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+    
+    margin-bottom: 1.5em;
+}
+.vamos-button{
     background-color: rgba(163, 146, 146, 0.924);
     border: 1px none;
     border-radius: 80px;
@@ -51,3 +101,4 @@ body{
     background-color: rgba(0, 0, 0, 0.602);
 
 }
+
