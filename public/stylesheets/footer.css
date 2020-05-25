@@ -1,11 +1,13 @@
 /* estilo del footer */
 footer {
     display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
     flex-direction: column;
     align-items: center;
     text-align: center;
     text-align: justify;
-    padding: 80px;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
