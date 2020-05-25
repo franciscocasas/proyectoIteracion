@@ -43,14 +43,6 @@ section h1 {
 }
 
 
-nav .close-button {
-  width: 48px;
-  float: right;
-  cursor: pointer;
-  opacity: 0;
-  color: white;
-}
-
 nav ul {
   list-style: none;
   margin: 2% auto 0 auto;
