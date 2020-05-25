@@ -36,6 +36,12 @@ body{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }  
+.error {
+    position: absolute;
+    top:2%;
+    left: 2%;
+    
+}
 .container:hover .image {
     opacity: 0.3;
 }
