@@ -20,3 +20,19 @@ footer {
 	font-weight: bold;
 	font-family: 'Bree Serif', serif;
 }
+.scroll {
+	width: 100%;
+	display: flex;
+	white-space: nowrap;
+	animation: animate 20s linear infinite;
+	animation-delay: -20s;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}

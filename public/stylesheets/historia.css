@@ -1,66 +1,74 @@
-/*IMAGENES */
-body{
-    font-family: 'Open Sans', sans-serif;
+/*? Fondo de imagenes background */
+body {
+	background-image: url('/images/barbijo blur.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
-.container{
-    position: relative;
-    width: 40%;
-    float: left;
-    padding: 5px;
-margin-left: 6.5%;
-margin-bottom: 5%;
-    }
-.title{
-    font-family: 'Bree Serif', serif;
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-    line-height: 40px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: rgb(56, 56, 56);
+
+/*IMAGENES */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	position: relative;
+	width: 40%;
+	float: left;
+	padding: 5px;
+	margin-left: 6.5%;
+	margin-bottom: 5%;
+}
+.title {
+	font-family: 'Bree Serif', serif;
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
 }
 .image {
-    opacity: 1;
-    display: block; 
-    transition: .5s ease;
-    backface-visibility: hidden;
-    height: 500px;
-    object-fit: cover;
-} 
+	opacity: 1;
+	display: block;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+	height: 500px;
+	object-fit: cover;
+}
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}  
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
 .error {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 .container:hover .image {
-    opacity: 0.3;
+	opacity: 0.3;
 }
-.container:hover .middle{
-    opacity: 1;
+.container:hover .middle {
+	opacity: 1;
 }
-.container:hover .error{
-    opacity: 1;
+.container:hover .error {
+	opacity: 1;
 }
 .text {
-    font-size: 100px;
-    font-weight: bold ;
-    padding: 16px 32px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(56, 56, 56, 0.698);
+	font-size: 100px;
+	font-weight: bold;
+	padding: 16px 32px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
 }
