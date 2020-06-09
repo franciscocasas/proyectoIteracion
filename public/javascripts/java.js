@@ -14,9 +14,9 @@ window.addEventListener('load', function () {
 				return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.');
 			}
 			console.log(formatNumber(10000000000));
-			div.innerHTML += '<p>Cantidad de casos:' + formatNumber(datos.TotalConfirmed) + '</p>';
-			div2.innerHTML += '<p>Cantidad de muertes:' + formatNumber(datos.TotalDeaths) + '</p>';
-			div3.innerHTML += '<p>Cantidad de recuperados:' + formatNumber(datos.TotalRecovered) + '</p>';
+			div.innerHTML += '<p>Cantidad de casos: ' + formatNumber(datos.TotalConfirmed) + '</p>';
+			div2.innerHTML += '<p>Cantidad de muertes: ' + formatNumber(datos.TotalDeaths) + '</p>';
+			div3.innerHTML += '<p>Cantidad de recuperados: ' + formatNumber(datos.TotalRecovered) + '</p>';
 			//! La funcion format Number le pone un formato a los nuumeros
 		});
 });
