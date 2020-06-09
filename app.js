@@ -10,6 +10,7 @@ var aboutRouter = require('./routes/about');
 var usoRouter = require('./routes/uso');
 var storyRouter = require('./routes/story');
 var errorRouter = require('./routes/error2');
+var animationRouter = require('./routes/animation');
 var app = express();
 
 // view engine setup
@@ -28,20 +29,21 @@ app.use('/about', aboutRouter);
 app.use('/uso', usoRouter);
 app.use('/story', storyRouter);
 app.use('/error2', errorRouter);
+app.use('/animation', animationRouter);
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+app.use(function (req, res, next) {
+	next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+app.use(function (err, req, res, next) {
+	// set locals, only providing error in development
+	res.locals.message = err.message;
+	res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+	// render the error page
+	res.status(err.status || 500);
+	res.render('error');
 });
 
 module.exports = app;

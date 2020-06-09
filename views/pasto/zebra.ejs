@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Zebra</title>
-    <meta charset="utf-8">
-    <!-- CSS --> <!-- Copiar en todos-->
-    <link rel='stylesheet' href='/stylesheets/header.css'/> 
-    <link rel='stylesheet' href='/stylesheets/footer.css'/>
-    <link rel='stylesheet' href='/stylesheets/historia.css'/>
-     <!--FONTS--> <!-- Copiar en todos-->
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-  </head>
-  <!--ACA VA EL HEADER-->
-  <%- include('../partials/head') %>
-  <!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
-  <body>
-    <h1 class="title">Seleccione para continuar:</h1>
-    <div class="superdiv">
-    <div class="container">
-      <a href="/story/pasto/leon"><img src="/images/lion.jpg" alt="Avatar" class="image" style="width:100%"></a>
-      <div class="middle">
-        <div class="text">León</div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <a href="/story/pasto/cheetah"><img src="/images/cheetah.jpg" alt="Avatar" class="image" style="width:100%"></a>
-      <div class="middle">
-        <div class="text">Cheetah</div>
-      </div>
-    </div>
-    </div>
-  
-  </body>
-  <!--TERMINE EL BODY, AHORA VOY A HACER EL FOOTER-->
-  <%- include('../partials/footer') %>
+	<head>
+		<title>Zebra</title>
+		<meta charset="utf-8" />
+		<!-- CSS -->
+		<!-- Copiar en todos-->
+		<link rel="stylesheet" href="/stylesheets/header.css" />
+		<link rel="stylesheet" href="/stylesheets/footer.css" />
+		<link rel="stylesheet" href="/stylesheets/historia.css" />
+		<!--FONTS-->
+		<!-- Copiar en todos-->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet" />
+	</head>
+	<!--ACA VA EL HEADER-->
+	<%- include('../partials/head') %>
+	<!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
+	<body>
+		<h1 class="title">Seleccione para continuar:</h1>
+		<div class="superdiv">
+			<div class="container">
+				<a href="/story/pasto/leon"><img src="/images/lion.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
+				<div class="middle">
+					<div class="text">León</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<a href="/story/pasto/cheetah"><img src="/images/cheetah.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
+				<div class="middle">
+					<div class="text">Cheetah</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<!--TERMINE EL BODY, AHORA VOY A HACER EL FOOTER-->
+	<%- include('../partials/footer') %>
 </html>

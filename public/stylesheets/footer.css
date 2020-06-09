@@ -1,18 +1,22 @@
 /* estilo del footer */
 footer {
-    display: flex;
-    position: relative;
-    width: 100%;
-    bottom: 0px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-align: justify;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Bree Serif', serif;
-    color: rgba(0, 0, 0, 0.602);
-    text-transform: uppercase;
-    font-size: 1.5rem;
-  }   
-  
+	display: flex;
+	position: relative;
+	width: 120%;
+	bottom: 0px;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(230, 0, 0, 0.8);
+}
+
+.footer {
+	margin-right: 20px;
+	color: white;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	text-align: center;
+	text-align: justify;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Bree Serif', serif;
+}
