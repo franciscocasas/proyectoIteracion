@@ -20,7 +20,12 @@
 	<%- include('./partials/head') %>
 	<!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
 	<body>
-		<h1 class="title">Seleccione para comenzar:</h1>
+			<% if (dia == undefined) {%>
+				<h1 class="title"> Seleccione para comenzar el dia 1:</h1>
+			<%}else{%>
+				<h1 class="title"> Seleccione para comenzar el dia <%=dia%>:</h1>
+			<%}%>
+		</h1>
 		<div class="superdiv">
 			<div class="container">
 				<a href="/story/pasto"><img src="/images/pasto.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
