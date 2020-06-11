@@ -12,46 +12,28 @@ router.get('/', function (req, res, next) {
 });
 
 /*  GET PASTO */
-router.get('/pasto', function (req, res, next) {
-	res.render('pasto/pasto');
+router.get('/levantarse', function (req, res, next) {
+	res.render('rutina/levantarse');
 });
-router.get('/pasto/zebra', function (req, res, next) {
-	res.render('pasto/zebra');
+router.get('/comer', function (req, res, next) {
+	res.render('rutina/comer');
 });
-router.get('/pasto/antilope', function (req, res, next) {
-	res.render('pasto/antilope');
+router.get('/procastinar', function (req, res, next) {
+	res.render('rutina/procastinar');
 });
-router.get('/pasto/leon', function (req, res, next) {
-	res.render('pasto/leon');
+router.get('/procastinar2', function (req, res, next) {
+	res.render('rutina/procastinar2');
 });
-router.get('/pasto/cheetah', function (req, res, next) {
-	res.render('pasto/cheetah');
+router.get('/almorzar', function (req, res, next) {
+	res.render('rutina/almorzar');
 });
-
-/*  GET ALGAS */
-router.get('/alga', function (req, res, next) {
-	res.render('alga/alga');
+router.get('/desayunar', function (req, res, next) {
+	res.render('rutina/desayunar');
 });
-router.get('/alga/zooplancton', function (req, res, next) {
-	res.render('alga/zooplancton');
+router.get('/seguir', function (req, res, next) {
+	res.render('rutina/seguir');
 });
-router.get('/alga/ballena', function (req, res, next) {
-	res.render('alga/ballena');
+router.get('/trabajar', function (req, res, next) {
+	res.render('rutina/trabajar');
 });
-router.get('/alga/anchoas', function (req, res, next) {
-	res.render('alga/anchoas');
-});
-router.get('/alga/gaviotas', function (req, res, next) {
-	res.render('alga/gaviotas');
-});
-router.get('/alga/pinguinos', function (req, res, next) {
-	res.render('alga/pinguinos');
-});
-router.get('/alga/leon', function (req, res, next) {
-	res.render('alga/leon');
-});
-router.get('/alga/orca', function (req, res, next) {
-	res.render('alga/orca');
-});
-
 module.exports = router;
