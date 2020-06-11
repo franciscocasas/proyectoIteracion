@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Story</title>
+		<title>Seguir durmiendo</title>
 		<meta charset="utf-8" />
 		<!-- CSS -->
 		<!-- Copiar en todos-->
 		<link rel="stylesheet" href="/stylesheets/header.css" />
 		<link rel="stylesheet" href="/stylesheets/footer.css" />
 		<link rel="stylesheet" href="/stylesheets/historia.css" />
+
 		<!--FONTS-->
 		<!-- Copiar en todos-->
+
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet" />
+
+		<!--Ulkit-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
 	</head>
 
 	<!--ACA VA EL HEADER-->
-	<%- include('./partials/head') %>
+	<%- include('../partials/head') %>
 	<!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
 	<body>
-			<% if (dia == undefined) {%>
-				<h1 class="title"> Seleccione para comenzar el dia 1:</h1>
-			<%}else{%>
-				<h1 class="title"> Seleccione para comenzar el dia <%=dia%>:</h1>
-			<%}%>
-		</h1>
+		<h1 class="title">Seleccione para continuar:</h1>
 		<div class="superdiv">
 			<div class="container">
-				<a href="/story/despierto"><img src="/images/levantarse.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
+				<a href="/story/cena" uk-toggle><img src="/images/Gym.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
 				<div class="middle">
-					<div class="text">Levantarse</div>
+					<div class="text">Gimnasio</div>
 				</div>
 			</div>
 
 			<div class="container">
-				<a href="/story/despierto"><img src="/images/cama.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
+				<a href="/story/cena"><img src="/images/procastinar.jpg" alt="Avatar" class="image" style="width: 100%;" /></a>
 				<div class="middle">
-					<div class="text">Seguir durmiendo</div>
+					<div class="text">Procastinar</div>
 				</div>
 			</div>
 		</div>
 	</body>
 	<!--TERMINE EL BODY, AHORA VOY A HACER EL FOOTER-->
-	<%- include('./partials/footer') %>
+	<%- include('../partials/footer') %>
 </html>

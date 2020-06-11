@@ -12,8 +12,8 @@ router.get('/', function (req, res, next) {
 });
 
 /*  GET PASTO */
-router.get('/levantarse', function (req, res, next) {
-	res.render('rutina/levantarse');
+router.get('/despierto', function (req, res, next) {
+	res.render('rutina/despierto');
 });
 router.get('/comer', function (req, res, next) {
 	res.render('rutina/comer');
@@ -21,19 +21,22 @@ router.get('/comer', function (req, res, next) {
 router.get('/procastinar', function (req, res, next) {
 	res.render('rutina/procastinar');
 });
-router.get('/procastinar2', function (req, res, next) {
-	res.render('rutina/procastinar2');
-});
-router.get('/almorzar', function (req, res, next) {
-	res.render('rutina/almorzar');
+router.get('/almuerzo', function (req, res, next) {
+	res.render('rutina/almuerzo');
 });
 router.get('/desayunar', function (req, res, next) {
 	res.render('rutina/desayunar');
 });
-router.get('/seguir', function (req, res, next) {
-	res.render('rutina/seguir');
-});
 router.get('/trabajar', function (req, res, next) {
 	res.render('rutina/trabajar');
+});
+router.get('/post', function (req, res, next) {
+	res.render('rutina/post');
+});
+router.get('/cena', function (req, res, next) {
+	res.render('rutina/cena');
+});
+router.get('/noche', function (req, res, next) {
+	res.render('rutina/noche');
 });
 module.exports = router;
