@@ -20,9 +20,12 @@
 	<!--ACA VA EL HEADER-->
 	<%- include('./partials/head') %>
 	<!-- TERMINE EL HEADER, AHORA EMPIEZA EL BODY-->
-	<body style="background-image: url('/images/barbijo blur.jpg');">
-		<h1 class="cicle-title">Acerca de este trabajo</h1>
-		<embed src="/images/Speech.pdf#toolbar" type="application/pdf" style="padding: 30px; margin: 0 auto; display: flex; justify-content: center;" width="90%" height="800px" />
+	<body>
+		<div class="container">
+			<h1 class="cicle-title">Acerca de este trabajo</h1>
+			<p class="cicle-p2">¿Quieres ver el PDF?</p>
+			<a Download href="/images/Speech.pdf#toolbar" download="Speech" class="vamos"><button class="vamos-button">Descargar</button></a>
+		</div>
 	</body>
 	<!--TERMINE EL BODY, AHORA VOY A HACER EL FOOTER-->
 	<%- include('./partials/footer') %>
